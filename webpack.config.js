@@ -15,11 +15,7 @@ module.exports = {
         loaders: [
             {
                 test: /\.svg$/,
-                loader: 'svg-sprite?' + JSON.stringify({
-                    name: '[name]_[hash]',
-                    prefixize: true,
-                    spriteModule: 'utils/my-custom-sprite'
-                })
+                loader: 'svg-sprite?'
             },
             // styles
             {
