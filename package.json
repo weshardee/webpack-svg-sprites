@@ -1,0 +1,22 @@
+{
+  "name": "webpack-dev-server vs ",
+  "version": "1.0.0",
+  "description": "A playground for testing webpack svg sprite packages",
+  "scripts": {
+    "dev": "webpack-dev-server --progress --colors --content-base build"
+  },
+  "repository": "git@github.com:weshardee/webpack-svg-sprites.git",
+  "author": "Wes Hardee",
+  "license": "MIT",
+  "dependencies": {
+    "svg-sprite-loader": "0.0.16",
+    "webpack-svgstore-plugin": "^2.1.2",
+    "autoprefixer-loader": "^2.0.0",
+    "css-loader": "^0.14.5",
+    "html-webpack-plugin": "^1.5.2",
+    "sass-loader": "^1.0.2",
+    "style-loader": "^0.12.3",
+    "webpack": "^1.9.11",
+    "webpack-dev-server": "^1.9.0"
+  }
+}
