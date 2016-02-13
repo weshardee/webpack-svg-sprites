@@ -3,8 +3,6 @@ var SvgStorePlugin = require('webpack-svgstore-plugin');
 
 module.exports = {
     entry: [
-        // setup the hot mobule loading
-        'webpack-dev-server/client?http://localhost:8080',
         // our entry file
         './app/main.js'
     ],
