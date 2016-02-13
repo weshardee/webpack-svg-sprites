@@ -9,7 +9,11 @@ webpack-svgstore-plugin seems like the more mature option, but svg-sprite-loader
 
 # How to run?
 
+Start the dev server:
+
 ```
 $ npm i
 $ npm run dev
 ```
+
+Pop open a browser: http://localhost:8080/webpack-dev-server/
